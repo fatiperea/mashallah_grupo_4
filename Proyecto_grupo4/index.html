@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    
+    <script
+      src="https://kit.fontawesome.com/f06b7b1b91.js"
+      crossorigin="anonymous"
+    ></script>
+
+    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="keywords"
+      content="ecommerce, música, instrumentos musicales, local comercial, instrumentos de cuerda, instrumentos de percusión, instrumentos de viento,  guitarra, batería, banda de rock, homestudio, audio, "
+    />
+
+    <meta name="author" content="Fátima Perea" />
+    <meta
+      name="description"
+      content="Primer Proyecto Grupal: Ecommerce de instrumentos
+    musicales"
+    />
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/navFooter.css" />
+
+    <title>Ecommerce</title>
+  </head>
+
+  <body class="bodyIndex">
+    <header>
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+        <div class="container-fluid contenedorNav">
+          <div class="imagenNav">
+            <a class="navbar-brand logo" href="./index.html"
+              ><img src="./img/logoBlanco.png" alt="Logo" />
+            </a>
+          </div>
+          <button
+            class="navbar-toggler hamburguesa"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"> </span>
+          </button>
+
+          <div class="buscadorNav">
+            <input type="text" placeholder="Buscar producto..." /><button>
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </div>
+
+          <div
+            class="collapse navbar-collapse botonesNav"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  aria-current="page"
+                  href="./pages/acerca.html"
+                >
+                  Acerca de nosotros</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/contacto.html">
+                  <i class="fa-solid fa-envelope"></i> Contactenos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/login.html"
+                  ><i class="fa-solid fa-user"></i> Login</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/carrito.html"
+                  ><i class="fa-solid fa-cart-shopping"></i> Carrito</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section
+      id="Promociones"
+      class="carousel slide carousel-fade"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="carousel-caption d-md-block">
+            <h1>Si tenés tu propia banda, contá con nosotros</h1>
+            <p>
+              Disponemos de todo lo que necesitas, te brindamos la mejor calidad
+              y asesoramiento, además de interesantes propuestas y
+              <b class="text-danger"> descuentos exclusivos!</b>
+            </p>
+          </div>
+          <img
+            src="./img/band-live.jpg"
+            class="d-block w-100"
+            alt="banda de rock"
+          />
+        </div>
+
+        <div class="carousel-item">
+          <div class="carousel-caption d-md-block">
+            <h1>Estas pensando en armar tu Homestudio?</h1>
+            <p>
+              Que esperas para visitarnos? En esta primavera todos nuestros kits
+              están al <b class="text-danger">15%</b> de descuento! No te lo
+              pierdas!
+            </p>
+          </div>
+          <img
+            src="./img/homestudio.jpg"
+            class="d-block w-100"
+            alt="homestudio"
+            class="img-fluid"
+          />
+        </div>
+
+        <div class="carousel-item">
+          <div class="carousel-caption d-md-block">
+            <h1>Adquirí tu guitarra en nuestro local</h1>
+            <p>
+              Te regalamos funda, pack de cuerdas de repuesto y si sos
+              principiante accedés a
+              <b class="text-danger"> 6 clases gratis!</b>
+            </p>
+          </div>
+          <img
+            src="./img/chicaconguitarra.jpg"
+            class="d-block w-100"
+            alt="chica con guitarra"
+            class="img-fluid"
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#Promociones"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#Promociones"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </section>
+
+    <section id="Banner">
+      <div id="botonBanner">
+        <button
+          class="btn btn-primary"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapseBanner"
+          aria-expanded="false"
+          aria-controls="collapseBanner"
+        >
+          <i class="bi bi-gift-fill">SORPRESA</i>
+        </button>
+      </div>
+      <div class="collapse" id="collapseBanner">
+        <div class="card">
+          <img
+            src="./img/escuela.jpg"
+            class="card-img-top h-50"
+            alt="escuela"
+          />
+          <div class="card-footer">
+            <h6 class="card-text p-1 mb-0">
+              AHORA TAMBIÉN... SOMOS TU ESCUELA DE ROCK!!
+            </h6>
+            <p class="card-text p-1 mb-1">
+              Si te inscribís hasta el 7/10 obtenés un 30% de descuento!!
+            </p>
+            <a class="btn btn-danger btn-sm w-100" href="#" role="button"
+              >Inscribirme</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <h2 class="text-center mx-2 mt-3">Elige tu categoría de preferencia</h2>
+
+    <section class="Categorias">
+      <div class="row justify-content-center m-0 p-0">
+        <div class="col-12 col-md-4 col-lg-4 mb-3 card">
+          <img src="img/Slash.jpg" alt="Slash" class="card-img" />
+          <div class="card-img-overlay categoriaText">
+            <h5 class="card-title text-center">CUERDAS</h5>
+            <p class="card-text">
+              Son uno de los instrumentos más antiguos utilizados en la
+              música.<a
+                href="./pages/detalleCategoriaGuitar.html"
+                class="text-decoration-none"
+              >
+                Ingresá</a
+              >
+              para ver toda la variedad que tenemos para vos
+            </p>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4 col-lg-4 mb-3 card">
+          <img
+            src="./img/Cindy-Blackman.jpg"
+            alt="Cindy Blackman"
+            class="card-img"
+          />
+
+          <div class="card-img-overlay categoriaText">
+            <h5 class="card-title text-center">PERCUSIÓN</h5>
+            <p class="card-text">
+              Viola Smith, con una trayectoria desde 1920, fué una de las
+              primeras mujeres bateristas profesionales de la historia.<a
+                href="./pages/detalleCategoriaBata.html"
+                class="text-decoration-none"
+              >
+                Empezá ahora</a
+              >
+            </p>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4 col-lg-4 mb-3 card">
+          <img
+            src="./img/Louis-Armstrong.jpg"
+            alt="Louis Armstrong"
+            class="card-img"
+          />
+
+          <div class="card-img-overlay categoriaText">
+            <h5 class="card-title text-center">VIENTO</h5>
+            <p class="card-text">
+              Louis Armstrong fué un cantante y trompetista estadounidense, y
+              una de las figuras más carismáticas e innovadoras de la historia
+              del jazz. Querés ser el siguiente?<a
+                href=""
+                class="text-decoration-none"
+              >
+                Accedé</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="justify-content-center">
+      <div>
+        <h2 class="text-center">
+          Conoces la calidad de nuestros clásicos, descubrí las mejores
+          Tendencias
+        </h2>
+      </div>
+    </div>
+
+<div class="container">
+
+    <section class="row justify-content-center text-center" id="Adicionales">
+      <div class="card h-100 col-12 col-md-6 col-lg-4">
+        <img
+          src="./img/teclado.jpg"
+          class="card-img-top d-block"
+          alt="teclado"
+        />
+        <div class="card-body bg-dark text-light">
+          <h5 class="card-title">Teclado</h5>
+          <p class="card-text">+ Cable</p>
+          <p class="card-text">Envio Gratis</p>
+        </div>
+        <div class="card-footer">
+          <a href="./pages/404.html" class="btn btn-primary">Ver</a>
+        </div>
+      </div>
+
+      <div class="card h-100 col-12 col-md-6 col-lg-4">
+        <img src="./img/combo.jpg" class="card-img-top" alt="comboaudio" />
+        <div class="card-body bg-dark text-light">
+          <h5 class="card-title">Combo grabación</h5>
+          <p class="card-text">Accesorios en imagen</p>
+          <p class="card-text">Envio Gratis</p>
+        </div>
+        <div class="card-footer">
+          <a href="./pages/404.html" class="btn btn-primary">Ver</a>
+        </div>
+      </div>
+
+      <div class="card h-100 col-12 col-md-6 col-lg-4">
+        <img
+          src="./img/consolauri.jpg"
+          class="card-img-top"
+          alt="consola con auricular"
+        />
+        <div class="card-body bg-dark text-light">
+          <h5 class="card-title">Consola</h5>
+          <p class="card-text">+ Auricular</p>
+          <p class="card-text">Envio Gratis</p>
+        </div>
+        <div class="card-footer">
+          <a href="./pages/404.html" class="btn btn-primary">Ver</a>
+        </div>
+      </div>
+
+     <div class="card h-100 col-12 col-md-6 col-lg-4" id="borrar">
+        <img
+          src="./img/drum.png"
+          class="card-img-top"
+          alt="bateria electronica"
+        />
+        <div class="card-body bg-dark text-light">
+          <h5 class="card-title">Batería</h5>
+          <p class="card-text">Banqueta incluida</p>
+          <p class="card-text">Envio Gratis</p>
+        </div>
+        <div class="card-footer">
+          <a href="./pages/404.html" class="btn btn-primary">Ver</a>
+        </div>
+      </div>
+
+      <div class="card h-100 col-12 col-md-6 col-lg-4" id="borrar">
+        <img src="./img/kit.jpg" class="card-img-top" alt="kit" />
+        <div class="card-body bg-dark text-light">
+          <h5 class="card-title">Interfaz de audio</h5>
+          <p class="card-text">Accesorios en imagen</p>
+          <p class="card-text">Envio Gratis</p>
+        </div>
+        <div class="card-footer">
+          <a href="./pages/404.html" class="btn btn-primary">Ver</a>
+        </div>
+      </div> 
+    </section>
+  </div>
+
+    <footer class="bg-dark text-light py-3 mt-4">
+      <div class="container">
+        <section class="row">
+          <div class="col-md-6 col-lg-4 text-center mt-3">
+            <h5>Mashallah</h5>
+            <p class="small">
+              "Explora nuestro universo de instrumentos y descubre la sinfonía
+              perfecta. Encuentra la melodía de tu inspiración en cada nota que
+              toques. ¡Haz de cada acorde el inicio de tu propia obra maestra
+              musical!"
+            </p>
+          </div>
+          <div
+            class="text-center align-self-center col-md-6 col-lg-4 imagenFot"
+          >
+            <img src="./img/logoBlanco.png" alt="Logo Mashallah" />
+          </div>
+
+          <div class="col-md-12 col-lg-4 text-center align-self-center mt-3">
+            <h5>¡Seguinos en nuestras redes!</h5>
+            <a
+              href="https://wa.me/3815301693?text=¡Estoy+interesado+en+mas+productos+de+Mashallah!"
+              class="link-light"
+              target="_blank"
+              ><i class="fa-brands fa-whatsapp fa-xl" style="color: white"></i
+            ></a>
+            <a
+              href="https://www.facebook.com/profile.php?id=100092370321063"
+              class="link-light"
+              target="_blank"
+              ><i
+                class="fa-brands fa-facebook fa-xl mx-3"
+                style="color: white"
+              ></i
+            ></a>
+            <a
+              href="https://www.instagram.com/mashallahmusica/"
+              class="link-light"
+              target="_blank"
+            >
+              <i
+                class="fa-brands fa-square-instagram fa-xl"
+                style="color: white"
+              ></i
+            ></a>
+          </div>
+        </section>
+      </div>
+    </footer>
+    <script src="./js/bootstrap.min.js"></script>
+  </body>
+</html>
