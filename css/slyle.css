@@ -1,0 +1,106 @@
+*{
+object-fit: contain;
+}
+.imagenPrincipal{
+    height: 350px; 
+    width: 100%;   
+}
+.img{
+    height: 75%;
+}
+
+.btn{
+    background-color: #ff8000;
+    color: white;
+}
+.imgBata{
+    height: 300px;
+}
+.imgCarrucel{
+    height: 640px;   
+}
+
+.sliderGuitarra{
+    height: 500px;
+}
+.btnDetalle{
+    color: #ff8000;
+}
+
+.imgGuitarra{
+    height: 300px;
+}
+.iconos{
+    height: 9%;
+}
+.contCarrucelPie{
+    height: 200px;
+}
+.mediosDePago{
+    height: 100px;
+}
+svg{
+    height: 20px;
+    width: 20px;
+    color: black;
+}
+.descripcion{
+    height: 350px;
+}
+.descParte2{
+    margin-top: 35%;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.consulta{
+    width: 60%;
+}
+.letraPrincipal{
+    font-family: 'Righteous', cursive;
+    color: #ff8000;
+    font-size: 135px;
+    text-align: center;
+    padding-top: 195px;
+    padding-bottom: 0%;
+}
+.logoMarcas{
+    height: 70px;
+}
+.imgModal{
+    width: 100%;
+}
+.page{
+    background-color: #ff8000;
+}
+.logoMashallah{
+    height: 250px;
+}
+.contImg{
+    color: #ff8000;
+    font-family: 'Righteous', cursive;
+}
+.iconoMercadoPago{
+    height: 70px;
+}
+.producto{
+    padding-top: 85px;
+    height: 100%;
+}
+.letraProducto{
+    font-family: 'Righteous', cursive;
+}
+textarea{
+    resize: none;
+}
+
+@media screen and (max-width: 680px){
+    .letraPrincipal{
+        font-size: 55px;
+    }
+    .imagenPrincipal{
+        height: 265px;
+    }
+}

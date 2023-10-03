@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+body{
+    background-color: rgb(33, 32, 32);
+    padding-top: 50%;
+}
+/*------------------------------------------------------BANNER---------------------------------------------------------*/
+#Banner{
+
+    position: relative;
+    
+}
+#Banner img{
+
+    width: 100%;
+    object-fit: cover;
+    filter: none;
+   
+}
+
+#Banner div{
+    
+    width: 250px;
+    height: 300px;
+    top: 280px;
+    right: 10px;
+    position: fixed;
+    z-index: 3;
+}
+
+
+#Banner .card-footer{
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+
+#Banner .card-text{
+
+    text-align: justify;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    font-family: righteous;
+    font-size: 14px;
+    background-color: #FF8000;
+
+}
+
+#Banner #botonBanner{
+
+    font-size: xx-large;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    top: 550px;
+    right: 65px;
+    
+}
+
+/*------------------------------------------------------SLIDER-----------------------------------------------------------*/
+
+#Promociones h1{
+
+   font-family: righteous;
+   color: white;
+   text-shadow: 1px 1px 2px black, 0 0 1em #FF8000, 0 0 0.2em #FF8000;
+}
+
+#Promociones p{
+
+    font-family: abel;
+    font-weight: bold;
+    font-size: x-large;
+    color: black;
+    text-shadow: 1px 1px 2px #FF8000, 0 0 1em white, 0 0 0.2em white;
+
+}
+
+#Promociones img{
+
+    height:500px;
+    object-fit: cover;
+    
+}
+/*-----------------------------------------------------TITULO-H2-------------------------------------------------------------*/
+h2{
+    font-family: righteous;
+    color: #FF8000;
+    text-shadow: 1px 1px 2px black;
+}
+
+/*----------------------------------------------------CATEGORIAS---------------------------------------------------------*/
+
+.Categorias .card{
+
+    margin: 8px;
+    width: 300px;
+    padding: 0%;
+    border: none;
+    border-radius: 10px;
+    
+}
+.Categorias img{
+    
+    filter: brightness(130%);
+    object-fit: cover;
+    height: 350px;
+    width: 100%;
+
+}
+
+.categoriaText {
+
+    font-family: abel;
+    font-size: larger;
+    font-weight: bold;
+    
+    display: none;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    
+}
+.categoriaText p{
+
+    text-align: justify;
+}
+
+.categoriaText h5{
+    text-align: center;
+    font-weight: bold;
+}
+
+ .card:hover .categoriaText{
+
+    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    
+}
+
+.card:hover img{
+
+    filter: opacity(80%);
+    filter: brightness(50%);
+}
+
+/*-----------------------------------ADICIONALES--------------------------------------------*/
+#tituloDj img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    position: absolute;
+}
+#tituloDj h2{
+    position: relative;
+    
+}
+
+
+
+
+
+#Adicionales img{
+    width: 100%;    
+    height: 200px;
+    
+}
+
+
+#Adicionales .card{
+  
+    width: 200px;
+
+}
+
+/*----------------------------------------------------MEDIAQUERYS------------------------------------------------------------*/
+@media screen and (max-width: 767px){
+    
+    #Banner{
+
+        display: none;
+    }
+    
+    #Promociones h1{
+
+        font-size:large;
+    }
+    #Promociones p{
+
+        font-size: medium;
+    }
+    #Promociones img{
+
+        height: 330px;
+    }
+    .categoriaText {
+
+        display: block;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-end;
+        font-size: small;
+    }
+    
+
+}
+
+@media all and (min-width: 768px) and (max-width: 991px){
+
+    #Banner #botonBanner{
+
+        top: 490px;
+        right: 70px;
+
+    }
+    #Banner div{
+        top: 180px;
+    }
+    #Promociones img{
+
+        height:400px;
+    }
+    .Categorias .card{
+
+        margin: 8px;
+        width: 230px;
+    }    
+    .categoriaText {
+
+        display: block;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-end;
+        font-size: small;
+    }
+    #borrar{
+        display: none;
+    }
+    
+}
+@media all and (min-width: 1199.98px) {
+
+    #Banner #botonBanner{
+
+        top: 600px;
+        right: 80px;
+    }
+    #Promociones img{
+
+        height:450px;
+    }
+}
