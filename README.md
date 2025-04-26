@@ -1,4 +1,4 @@
-# Mashallah_grupo_4
+# Mashallah - Casa de música - Grupo 4
 
 ## Proyecto fin de módulo 1 - RollingCode School
 
@@ -27,9 +27,9 @@ _Todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
 
 * **Adrián Chanampa** [GitHub](https://github.com/AdrianKarma)
 * **Fátima Perea** [GitHub](https://github.com/fatiperea)
-* __Gimena__  [GitHub](https://github.com/)
-* __Gabriel__  [GitHub](https://github.com/)
-* __Luis__ [GitHub](https://github.com/)
+* __Gimena Arias__  [GitHub](https://github.com/GimenaArias)
+* __Gabriel Pérez__  [GitHub](https://github.com/GabrielP410)
+* __Luis Romero__ [GitHub](https://github.com/romero1987)
 
 
 
